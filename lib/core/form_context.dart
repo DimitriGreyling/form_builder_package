@@ -1,10 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../mvvm/form_view_model.dart';
-import '../mvvm/form_providers.dart';
-import 'errors.dart';
+import 'package:form_builder_package/mvvm/form_providers.dart';
 
 class FormContext {
-  final Ref ref;
+  final WidgetRef ref;
 
   FormContext(this.ref);
 

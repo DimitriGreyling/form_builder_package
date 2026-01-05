@@ -2,6 +2,7 @@ name: form_builder_package
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+  "https://flutter.dev"
 
 environment:
   sdk: ^3.5.3
@@ -10,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  riverpod: ^2.6.1
+  flutter_riverpod: ^2.6.1
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +23,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/
 
   # To add assets to your package, add an assets section, like this:
   # assets:
